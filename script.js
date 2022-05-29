@@ -43,7 +43,7 @@ audioElement.addEventListener('timeupdate', () => {
     
         }
         // console.log(audioElement.duration) ;
-         musicduration.innerText= `${(totalmin)} : ${(totalsec )}` ;
+         musicduration.innerText= `${(totalmin)}:${(totalsec )}` ;
     
     })
     
@@ -58,7 +58,7 @@ audioElement.addEventListener('timeupdate', () => {
     {
         currsec = `0${currsec}` ;
     }
-    musiccurrtime.innerText = `${currmin} : ${currsec}` ;
+    musiccurrtime.innerText = `${currmin}:${currsec}` ;
 
         myProgressBar.value = progress;
 
